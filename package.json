@@ -1,8 +1,9 @@
 {
   "name": "vue_test_demo_1",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
+    "dev": "node build/dev-server.js",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
@@ -12,13 +13,24 @@
     "vue": "^2.6.11"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-plugin-eslint": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
     "babel-eslint": "^10.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^0.25.0",
     "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^6.2.2",
-    "vue-template-compiler": "^2.6.11"
+    "eslint-config-vue": "^2.0.1",
+    "eslint-plugin-vue": "^1.0.0",
+    "eslint-plugin-vuefix": "^0.1.0",
+    "express": "^4.13.3",
+    "html-webpack-plugin": "^5.0.0",
+    "opn": "^4.0.2",
+    "style-loader": "^2.0.0",
+    "sass-loader": "^4.0.2",
+    "vue-loader": "^15.0.0",
+    "vue-style-loader": "^1.0.0",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^5.20.2",
+    "webpack-cli": "^4.5.0",
+    "zrender": "^3.4.3"
   },
   "eslintConfig": {
     "root": true,
@@ -38,5 +50,14 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "description": "## Project setup ``` npm install ```",
+  "main": "babel.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  }
 }
